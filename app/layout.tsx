@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 
 import "./globals.css";
 
-const IBMPlex = IBM_Plex_Sans({ 
+const IBMPlex = IBM_Plex_Sans({
   subsets: ["latin"],
   weight: ['400', '500', '600', '700'],
   variable: '--font-ibm-plex'
@@ -13,7 +13,7 @@ const IBMPlex = IBM_Plex_Sans({
 
 export const metadata: Metadata = {
   title: "ImagedAI",
-  description: "AI-powered image generator",
+  description: "An all-in-one tool for the Digital Creators",
 };
 
 export default function RootLayout({
