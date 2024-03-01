@@ -12,7 +12,7 @@ const IBMPlex = IBM_Plex_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "ImagedAI",
+  title: "ImageAlchemy",
   description: "An all-in-one tool for the Digital Creators",
 };
 
