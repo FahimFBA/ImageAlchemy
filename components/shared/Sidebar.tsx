@@ -7,6 +7,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Button } from '../ui/button'
 
+
 const Sidebar = () => {
   const pathname = usePathname();
 
@@ -41,7 +42,6 @@ const Sidebar = () => {
               })}
             </ul>
 
-
             <ul className="sidebar-nav_elements">
               {navLinks.slice(6).map((link) => {
                 const isActive = link.route === pathname
@@ -64,7 +64,7 @@ const Sidebar = () => {
               })}
 
               <li className="flex-center cursor-pointer gap-2 p-4">
-                <UserButton afterSignOutUrl="/" showName />
+                <UserButton afterSignOutUrl='/' showName />
               </li>
             </ul>
           </SignedIn>
